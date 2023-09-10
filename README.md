@@ -4,6 +4,9 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/AlgoETS/Workshop1)
 
+
+![AlgoETS](algoets.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
