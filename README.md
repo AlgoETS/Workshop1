@@ -1,4 +1,4 @@
-# Python Data Science & Engineering Tutorials
+# AlgoETS Workshop 1: Python & Data Science
 
 ![Python Version](https://img.shields.io/badge/Python-3.10-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
