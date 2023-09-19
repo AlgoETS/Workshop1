@@ -1,74 +1,112 @@
-Setting up a Python environment is crucial for managing dependencies and ensuring that your code runs consistently across different setups. Below are the steps to set up a Python environment using virtual environments and `pip`, as well as using Anaconda for more data science-oriented projects.
+# Guide pour Configurer un Environnement Python
+
+## Table des Matières
+
+1. [Introduction](#introduction) - 2 minutes
+2. [Méthode 1 : Utilisation de `virtualenv` et `pip`](#méthode-1--utilisation-de-virtualenv-et-pip) - 8 minutes
+3. [Méthode 2 : Utilisation d'Anaconda](#méthode-2--utilisation-danaconda) - 10 minutes
+4. [Bonus : Jupyter Lab](#bonus--jupyter-lab) - 5 minutes
 
 ---
 
-### Method 1: Using `virtualenv` and `pip`
+## Introduction
 
-1. **Install Python**
-   - Download and install Python from [python.org](https://www.python.org/).
-
-2. **Install `virtualenv`**
-   - Open your terminal and run:
-     ```bash
-     pip install virtualenv
-     ```
-
-3. **Create a Virtual Environment**
-   - Navigate to your project directory and run:
-     ```bash
-     virtualenv venv
-     ```
-   This will create a new folder named `venv` in your project directory.
-
-4. **Activate the Virtual Environment**
-   - On macOS and Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-   - On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-
-5. **Install Packages**
-   - Use `pip` to install packages:
-     ```bash
-     pip install package_name
-     ```
-
-6. **Deactivate the Virtual Environment**
-   - When you're done, deactivate the virtual environment:
-     ```bash
-     deactivate
-     ```
+Configurer un environnement Python est crucial pour gérer les dépendances et s'assurer que votre code s'exécute de manière cohérente sur différentes configurations.
 
 ---
 
-### Method 2: Using Anaconda (Preferred for Data Science)
+## Méthode 1 : Utilisation de `virtualenv` et `pip`
 
-1. **Install Anaconda**
-   - Download and install Anaconda from [anaconda.com](https://www.anaconda.com/products/distribution).
+### 1.1 Installer Python
 
-2. **Create a Conda Environment**
-   - Open Anaconda Navigator or terminal and run:
-     ```bash
-     conda create --name myenv python=3.8
-     ```
+Téléchargez et installez Python depuis [python.org](https://www.python.org/).
 
-3. **Activate the Conda Environment**
-   - Run:
-     ```bash
-     conda activate myenv
-     ```
+### 1.2 Installer `virtualenv`
 
-4. **Install Packages**
-   - Use `conda` or `pip` to install packages:
-     ```bash
-     conda install package_name
-     ```
+```bash
+pip install virtualenv
+```
 
-5. **Deactivate the Conda Environment**
-   - Run:
-     ```bash
-     conda deactivate
-     ```
+### 1.3 Créer un Environnement Virtuel
+
+```bash
+virtualenv venv
+```
+
+### 1.4 Activer l'Environnement Virtuel
+
+- **macOS et Linux** :
+
+    ```bash
+    source venv/bin/activate
+    ```
+  
+- **Windows** :
+
+    ```bash
+    .\\venv\\Scripts\\activate
+    ```
+
+### 1.5 Installer des Paquets
+
+```bash
+pip install nom_du_paquet
+```
+
+### 1.6 Désactiver l'Environnement Virtuel
+
+```bash
+deactivate
+```
+
+---
+
+## Méthode 2 : Utilisation d'Anaconda
+
+### 2.1 Installer Anaconda
+
+Téléchargez et installez Anaconda depuis [anaconda.com](https://www.anaconda.com/products/distribution).
+
+### 2.2 Créer un Environnement Conda
+
+```bash
+conda create --name monenv python=3.8
+```
+
+### 2.3 Activer l'Environnement Conda
+
+```bash
+conda activate monenv
+```
+
+### 2.4 Installer des Paquets
+
+```bash
+conda install nom_du_paquet
+```
+
+### 2.5 Désactiver l'Environnement Conda
+
+```bash
+conda deactivate
+```
+
+---
+
+## Bonus : Jupyter Lab
+
+### 4.1 Installation via `pip`
+
+```bash
+pip install jupyterlab
+```
+
+### 4.2 Lancer Jupyter Lab
+
+```bash
+jupyter lab
+```
+
+### 4.3 Arrêter Jupyter Lab
+
+Pour arrêter Jupyter Lab, fermez simplement la fenêtre du navigateur et arrêtez le serveur dans le terminal en utilisant `Ctrl+C`.
