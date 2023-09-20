@@ -1,59 +1,59 @@
-# AlgoETS Workshop 1: Python & Data Science
+# Atelier AlgoETS 1 : Python & Science des Données
 
-![Python Version](https://img.shields.io/badge/Python-3.10-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Last Commit](https://img.shields.io/github/last-commit/AlgoETS/Workshop1)
-![Contributors Welcome](https://img.shields.io/badge/Contributors-Welcome-orange)
+![Version Python](https://img.shields.io/badge/Python-3.10-blue)
+![Licence : MIT](https://img.shields.io/badge/Licence-MIT-green.svg)
+![Dernier Commit](https://img.shields.io/github/last-commit/AlgoETS/Atelier1)
+![Contributeurs Bienvenus](https://img.shields.io/badge/Contributeurs-Bienvenus-orange)
 
 ![AlgoETS](images/algoets.png)
 
-## Table of Contents
+## Table des Matières
 
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-  - [Requirements](#requirements)
-  - [Setup](#setup)
-- [Tutorials](#tutorials)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
-- [Get in Touch](#get-in-touch)
-
----
-
-## Overview
-
-Welcome to the AlgoETS Python Workshop repository! Here, you'll find a collection of Jupyter Notebooks and Markdown guides designed to elevate your Python skills, especially in data science and software engineering. Whether you're a beginner or seasoned pro, there's something for everyone.
+- [Aperçu](#aperçu)
+- [Démarrage Rapide](#démarrage-rapide)
+  - [Exigences](#exigences)
+  - [Configuration](#configuration)
+- [Tutoriels](#tutoriels)
+- [Comment Contribuer](#comment-contribuer)
+- [Licence](#licence)
+- [Contact](#contact)
 
 ---
 
-## Quick Start
+## Aperçu
 
-### Requirements
+Bienvenue dans le dépôt de l'Atelier Python AlgoETS ! Ici, vous trouverez une collection de cahiers Jupyter et de guides en Markdown conçus pour améliorer vos compétences en Python, notamment en science des données et en génie logiciel. Que vous soyez débutant ou professionnel aguerri, il y en a pour tous les goûts.
 
-- Python 3.10 or higher
+---
+
+## Démarrage Rapide
+
+### Exigences
+
+- Python 3.10 ou supérieur
 - Jupyter Notebook
 
-### Setup
+### Configuration
 
-1. **Clone the Repo**
-
-   ```bash
-   git clone https://github.com/AlgoETS/Workshop1.git
-   ```
-
-2. **Navigate to Project Directory**
+1. **Cloner le dépôt**
 
    ```bash
-   cd Workshop1
+   git clone https://github.com/AlgoETS/Atelier1.git
    ```
 
-3. **Install Dependencies**
+2. **Naviguer vers le répertoire du projet**
+
+   ```bash
+   cd Atelier1
+   ```
+
+3. **Installer les dépendances**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Launch Jupyter Notebook**
+4. **Lancer Jupyter Notebook**
 
    ```bash
    jupyter notebook
@@ -61,59 +61,91 @@ Welcome to the AlgoETS Python Workshop repository! Here, you'll find a collectio
 
 ---
 
-## Tutorials
+## Tutoriels
 
-Each tutorial is designed to cover specific topics in Python, giving you hands-on experience.
+Chaque tutoriel est conçu pour couvrir des sujets spécifiques en Python, vous offrant une expérience pratique.
 
-### `00-install`
+### `0.0-install`
 
-- **00_python_environment.ipynb**: Step-by-step guide to setting up your Python environment, including package management with `pip`.
+- Configuration de l'environnement Python et introduction à l'utilisation de Jupyter Notebook dans le cloud.
 
-### `01-basic`
+  - **0.1_python_environement.ipynb**: Guide étape par étape pour configurer votre environnement Python, y compris la gestion des packages avec `pip`.
+  - **0.2_jupyter_cloud.ipynb**: Introduction à l'utilisation de Jupyter Notebook dans un environnement cloud.
 
-- **01_python_basic.ipynb**: Your starting point in Python programming. Learn variables, data types, control structures, and more.
+### `1.0-basic`
 
-### `02-data`
+- Concepts de base et avancés en programmation Python.
 
-- **02_python_panda.ipynb**: Dive into data manipulation and exploration using Pandas. Covers DataFrame operations, data cleaning, and basic visualizations.
+  - **1.1_python_basic.ipynb**: Votre point de départ dans la programmation Python. Apprenez les variables, les types de données, les structures de contrôle, et plus encore.
+  - **1.2_python_advanced.ipynb**: Couvre des sujets avancés en Python pour améliorer vos compétences en programmation.
 
-### `03-visualisation`
+### `2.0-api`
 
-- **03_python_visualisation.ipynb**: A comprehensive tutorial on data visualization techniques using Matplotlib and Seaborn.
+- Interagir avec les API pour récupérer, traiter et analyser des données du monde réel.
 
-### `04-api`
+  - **2.1_python_api.ipynb**: Comprenez comment interagir avec les API pour récupérer, traiter et analyser des données du monde réel.
 
-- **04_python_api.ipynb**: Understand how to interact with APIs to fetch, process, and analyze real-world data.
+### `3.0-data`
 
-### `05-project`
+- Manipulation et exploration des données en utilisant Pandas.
 
-- **05_python_cool_project.ipynb**: A capstone project that combines everything you've learned into a practical, real-world data science application.
+  - **3.1_python_panda.ipynb**: Plongez dans la manipulation et l'exploration des données en utilisant Pandas. Couvre les opérations sur les DataFrames, le nettoyage des données et les visualisations de base.
 
----
+### `4.0-visualisation`
 
-## How to Contribute
+- Techniques de visualisation de données en utilisant Matplotlib et Seaborn.
 
-We welcome contributions from the community! Here's how you can contribute:
+  - **4.2_visualisation_analyse.ipynb**: Un tutoriel complet sur les techniques de visualisation de données en utilisant Matplotlib et Seaborn.
 
-1. **Fork the Project**
-2. **Create a Feature Branch**: `git checkout -b feature/YourFeatureName`
-3. **Commit Changes**: `git commit -m 'Describe your changes here'`
-4. **Push to Origin**: `git push origin feature/YourFeatureName`
-5. **Open a Pull Request**
+### `5.0-project`
 
-Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for more guidelines.
+- Un projet final qui combine tout ce que vous avez appris pour résoudre un problème réel de science des données.
 
----
-
-## License
-
-This project is licensed under the MIT License. For more details, see the [LICENSE](LICENSE) file.
+  - **5.1_project_ema.ipynb**: Un projet final qui combine tout ce que vous avez appris dans une application pratique de science des données en monde réel.
 
 ---
 
-## Get in Touch
+## Comment Contribuer
+
+Nous accueillons les contributions de la communauté ! Voici comment vous pouvez contribuer :
+
+1. **Forker le projet**
+2. **Créer une branche de fonctionnalité**: `git checkout -b feature/VotreNomDeFonctionnalité`
+3. **Commiter les changements**: `git commit -m 'Décrivez vos changements ici'`
+4. **Pousser vers l'origine**: `git push origin feature/VotreNomDeFonctionnalité`
+5. **Ouvrir une demande d'extraction (Pull Request)**
+
+Consultez le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de directives.
+
+---
+
+## Licence
+
+Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier [LICENSE](LICENSE).
+
+---
+
+## Contact
 
 - **Contact**: Antoine Boucher - [Email](mailto:antoine.boucher@ens.etsmtl.ca)
-- **Project Link**: [GitHub - AlgoETS/Workshop1](https://github.com/AlgoETS/Workshop1)
+- **Lien du Projet**: [GitHub - AlgoETS/Atelier1](https://github.com/AlgoETS/Atelier1)
 
-Feel free to reach out if you have any questions or suggestions. Happy Learning! 🚀
+N'hésitez pas à nous contacter si vous avez des questions ou des suggestions. Bon apprentissage ! 🚀
+
+---
+
+### Objectif Final du Projet EMA
+
+Le projet EMA (Exploration et Modélisation Avancée) est conçu comme un point culminant de tout ce que vous avez appris dans cet atelier. Vous appliquerez des techniques de programmation Python, de manipulation de données avec Pandas, de visualisation avec Matplotlib et Seaborn, et d'interaction avec les API pour résoudre un problème réel de science des données.
+
+Les compétences acquises dans ce projet sont directement applicables dans des contextes professionnels et académiques, faisant de vous un candidat plus compétent dans le domaine de la science des données.
+
+Pour réussir ce projet, vous devrez:
+
+1. Identifier un problème ou une question de recherche.
+2. Collecter et nettoyer les données nécessaires.
+3. Effectuer une analyse exploratoire des données.
+4. Appliquer des algorithmes de machine learning pour extraire des informations utiles ou faire des prédictions.
+5. Présenter vos résultats sous une forme facilement compréhensible, en utilisant des techniques de visualisation de données avancées.
+
+Nous sommes impatients de voir ce que vous créerez !

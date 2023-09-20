@@ -1,0 +1,53 @@
+# For making HTTP requests
+httpx
+
+# For making HTTP requests
+requests
+
+# For web scraping
+beautifulsoup4
+
+# For parsing XML and HTML documents
+lxml
+
+# For financial market data from Finnhub
+finnhub-python
+
+# For accessing Binance API
+binance
+
+# For accessing Binance API with Python
+python-binance
+
+# For data manipulation and analysis
+pandas
+
+# For data manipulation and fiancial analysis of technical indicators
+pandas_ta
+
+# For easy AI integrations with Pandas
+pandasai
+
+# For DataFrame manipulations, alternative to Pandas
+polars
+
+# For basic data visualization
+matplotlib
+
+# For statistical data visualization
+seaborn
+
+# For interactive data visualization
+plotly
+
+# For machine learning algorithms
+scikit-learn
+
+# For numerical computations
+numpy
+
+# For financial data visualization
+mplfinance
+
+# For rich text and beautiful formatting in the terminal
+rich
