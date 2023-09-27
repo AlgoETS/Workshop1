@@ -5,7 +5,11 @@
 ![Dernier Commit](https://img.shields.io/github/last-commit/AlgoETS/Atelier1)
 ![Contributeurs Bienvenus](https://img.shields.io/badge/Contributeurs-Bienvenus-orange)
 
+
+https://colab.research.google.com/github/AlgoETS/Workshop1/blob/main/1.0-basic/1.1_python_basic.ipynb
+
 ![AlgoETS](images/algoets.png)
+
 
 ## Table des Matières
 
