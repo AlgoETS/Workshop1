@@ -2,7 +2,7 @@
 
 ![Version Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Licence : MIT](https://img.shields.io/badge/Licence-MIT-green.svg)
-![Dernier Commit](https://img.shields.io/github/last-commit/AlgoETS/Atelier1)
+![Dernier Commit](https://img.shields.io/github/last-commit/AlgoETS/Workshop1)
 ![Contributeurs Bienvenus](https://img.shields.io/badge/Contributeurs-Bienvenus-orange)
 
 
