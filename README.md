@@ -48,7 +48,7 @@ Bienvenue dans le dépôt de l'Atelier Python AlgoETS ! Ici, vous trouverez une 
 2. **Naviguer vers le répertoire du projet**
 
    ```bash
-   cd Atelier1
+   cd Workshop1
    ```
 
 3. **Installer les dépendances**
