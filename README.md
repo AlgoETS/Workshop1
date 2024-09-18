@@ -42,7 +42,7 @@ Bienvenue dans le dépôt de l'Atelier Python AlgoETS ! Ici, vous trouverez une 
 1. **Cloner le dépôt**
 
    ```bash
-   git clone https://github.com/AlgoETS/Atelier1.git
+   git clone https://github.com/AlgoETS/Workshop1.git
    ```
 
 2. **Naviguer vers le répertoire du projet**
