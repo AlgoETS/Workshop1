@@ -109,35 +109,6 @@ Chaque tutoriel est conçu pour couvrir des sujets spécifiques en Python, vous 
 
 ---
 
-## Comment Contribuer
-
-Nous accueillons les contributions de la communauté ! Voici comment vous pouvez contribuer :
-
-1. **Forker le projet**
-2. **Créer une branche de fonctionnalité**: `git checkout -b feature/VotreNomDeFonctionnalité`
-3. **Commiter les changements**: `git commit -m 'Décrivez vos changements ici'`
-4. **Pousser vers l'origine**: `git push origin feature/VotreNomDeFonctionnalité`
-5. **Ouvrir une demande d'extraction (Pull Request)**
-
-Consultez le fichier [CONTRIBUTING.md](CONTRIBUTING.md) pour plus de directives.
-
----
-
-## Licence
-
-Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier [LICENSE](LICENSE).
-
----
-
-## Contact
-
-- **Contact**: Antoine Boucher - [Email](mailto:antoine.boucher@ens.etsmtl.ca)
-- **Lien du Projet**: [GitHub - AlgoETS/Atelier1](https://github.com/AlgoETS/Atelier1)
-
-N'hésitez pas à nous contacter si vous avez des questions ou des suggestions. Bon apprentissage ! 🚀
-
----
-
 ### Objectif Final du Projet EMA
 
 Le projet EMA (Exploration et Modélisation Avancée) est conçu comme un point culminant de tout ce que vous avez appris dans cet atelier. Vous appliquerez des techniques de programmation Python, de manipulation de données avec Pandas, de visualisation avec Matplotlib et Seaborn, et d'interaction avec les API pour résoudre un problème réel de science des données.
